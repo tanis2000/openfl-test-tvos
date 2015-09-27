@@ -17,8 +17,10 @@
 -D openfl-native
 -D ios
 -D mobile
+-D appletvos
 --remap flash:openfl
 -D iphone
 -D ios
+-D appletvos
 --macro keep("Main")
 -D no-compilation
