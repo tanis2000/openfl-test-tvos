@@ -21,3 +21,6 @@ xcuserdata
 *.xccheckout
 *.moved-aside
 *.xcuserstate
+
+## Haxe stuff
+lib/
