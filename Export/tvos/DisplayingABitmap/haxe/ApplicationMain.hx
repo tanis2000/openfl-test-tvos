@@ -90,7 +90,7 @@ class ApplicationMain {
 		
 		config = {
 			
-			build: "5",
+			build: "6",
 			company: "OpenFL",
 			file: "DisplayingABitmap",
 			fps: 30,
