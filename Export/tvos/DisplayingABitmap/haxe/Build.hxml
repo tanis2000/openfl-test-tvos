@@ -19,5 +19,6 @@
 -D mobile
 --remap flash:openfl
 -D tvos
+-D appletvos
 --macro keep("Main")
 -D no-compilation

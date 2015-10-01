@@ -27,7 +27,7 @@
 	<key>UIRequiredDeviceCapabilities</key>
 	<dict>
 		
-			<key>armv64</key>
+			<key>arm64</key>
 			<true/>
 		
 	</dict>
