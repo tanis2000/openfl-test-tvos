@@ -1,5 +1,5 @@
 -main ApplicationMain 
--cp /usr/lib/haxe/lib/openfl/3,3,6
+-cp /Users/tanis/Documents/openfl
 -D openfl=3.3.6
 -cp /Users/tanis/Documents/lime
 -D lime=2.6.6

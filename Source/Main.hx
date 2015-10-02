@@ -26,12 +26,12 @@ class Main extends Sprite {
 		
 		bitmap.x = (stage.stageWidth - bitmap.width) / 2;
 		bitmap.y = (stage.stageHeight - bitmap.height) / 2;
-		/*
-		this.graphics.lineStyle(10, 0xFF0000, 1, LineScaleMode.NORMAL, CapsStyle.NONE, JointStyle.ROUND, 10);
+
+		/*this.graphics.lineStyle(10, 0xFF0000, 1, LineScaleMode.NORMAL, CapsStyle.NONE, JointStyle.ROUND, 10);
 		this.graphics.beginFill(0x00FF00, 1);
 		this.graphics.drawRect(0, 0, 500, 500);
-		this.graphics.endFill();
-		*/
+		this.graphics.endFill();*/
+		
 	}
 
 	

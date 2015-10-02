@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0252AD191BBD421B00ADEA39 /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0252AD181BBD421B00ADEA39 /* GameController.framework */; };
+		026D746C1BBED5C800EAA58A /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 026D746B1BBED5C800EAA58A /* GameController.framework */; };
 		1E2E17AD131E8B5D0048F3C7 /* DisplayingABitmap/assets in Resources */ = {isa = PBXBuildFile; fileRef = 1E2E17A5131E8B5D0048F3C7 /* DisplayingABitmap/assets */; };
 		1EEEBA9B121AF1C60048A9DF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EEEBA9A121AF1C60048A9DF /* UIKit.framework */; };
 		1EEEBAA3121AF2210048A9DF /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EEEBAA2121AF2210048A9DF /* OpenAL.framework */; };
@@ -34,8 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0252AD181BBD421B00ADEA39 /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = System/Library/Frameworks/GameController.framework; sourceTree = SDKROOT; };
-		1D6058910D05DD3D006BFB54 /* Displaying a Bitmap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Displaying a Bitmap.app"; path = DisplayingABitmap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		026D746B1BBED5C800EAA58A /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = System/Library/Frameworks/GameController.framework; sourceTree = SDKROOT; };
+		1D6058910D05DD3D006BFB54 /* DisplayingABitmap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DisplayingABitmap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E2E17A5131E8B5D0048F3C7 /* DisplayingABitmap/assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = DisplayingABitmap/assets; sourceTree = "<group>"; };
 		1E2E17A5141E8B5D0048F3C7 /* DisplayingABitmap/haxe/build */ = {isa = PBXFileReference; lastKnownFileType = folder; path = DisplayingABitmap/haxe/build; sourceTree = SOURCE_ROOT; };
 		1EEEBA9A121AF1C60048A9DF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -58,7 +58,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0252AD191BBD421B00ADEA39 /* GameController.framework in Frameworks */,
 				1EEEBA9B121AF1C60048A9DF /* UIKit.framework in Frameworks */,
 				1EEEBAA3121AF2210048A9DF /* OpenAL.framework in Frameworks */,
 				1EEEBAA5121AF2210048A9DF /* OpenGLES.framework in Frameworks */,
@@ -69,6 +68,7 @@
 				1EEEBAFE121BE2980048A9DF /* AVFoundation.framework in Frameworks */,
 				1EEEBB00121BE2B30048A9DF /* Foundation.framework in Frameworks */,
 				1EEEBAB3121AF2880048A9D1 /* MediaPlayer.framework in Frameworks */,
+				026D746C1BBED5C800EAA58A /* GameController.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +86,7 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1D6058910D05DD3D006BFB54 /* Displaying a Bitmap.app */,
+				1D6058910D05DD3D006BFB54 /* DisplayingABitmap.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,7 +94,6 @@
 		1EEEBA99121AF18B0048A9DF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0252AD181BBD421B00ADEA39 /* GameController.framework */,
 				1EEEBA9A121AF1C60048A9DF /* UIKit.framework */,
 				1EEEBAA2121AF2210048A9DF /* OpenAL.framework */,
 				1EEEBAA4121AF2210048A9DF /* OpenGLES.framework */,
@@ -105,6 +104,7 @@
 				1EEEBAFB121BE2980048A9DF /* AudioToolbox.framework */,
 				1EEEBAFD121BE2980048A9DF /* AVFoundation.framework */,
 				1EEEBAB2121AF2880048A9D1 /* MediaPlayer.framework */,
+				026D746B1BBED5C800EAA58A /* GameController.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -174,7 +174,7 @@
 			);
 			name = DisplayingABitmap;
 			productName = "Displaying a Bitmap";
-			productReference = 1D6058910D05DD3D006BFB54 /* Displaying a Bitmap.app */;
+			productReference = 1D6058910D05DD3D006BFB54 /* DisplayingABitmap.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */

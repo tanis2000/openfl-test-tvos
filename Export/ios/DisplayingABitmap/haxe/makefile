@@ -76,7 +76,7 @@ build-haxe-armv7:
 build-haxe-arm64:
 	@echo "Haxe device build: $(CONFIG)-64"
 	haxe Build.hxml -D HXCPP_ARM64 -cpp build/$(CONFIG)-64 $(DEBUG)
-	cd build/$(CONFIG)-64; export HXCPP_NO_COLOR=1; haxelib run hxcpp Build.xml -Dios -Diphone -Dappletvos -DHXCPP_ARM64 -DHXCPP_CPP11 $(DEF_DEBUG) $(HXCPP_CLANG) `cat Options.txt | while read LINE; do printf " -D$$LINE"; done`
+	cd build/$(CONFIG)-64; export HXCPP_NO_COLOR=1; haxelib run hxcpp Build.xml -Dios -Diphone -DHXCPP_ARM64 -DHXCPP_CPP11 $(DEF_DEBUG) $(HXCPP_CLANG) `cat Options.txt | while read LINE; do printf " -D$$LINE"; done`
 	cp build/$(CONFIG)-64/libApplicationMain$(DEBUG).iphoneos-64.a ../lib/arm64$(LIB_DEST)
 	touch ../Classes/Main.mm
 
