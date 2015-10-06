@@ -39,18 +39,34 @@ class Main extends Sprite {
 		this.graphics.endFill();*/
 
 		var input = new GameInput ();
-input.addEventListener (GameInputEvent.DEVICE_ADDED, function (e:GameInputEvent) {
+		input.addEventListener (GameInputEvent.DEVICE_ADDED, function (e:GameInputEvent) {
 
 			trace ("Connected game input: " + e.device);
 
 			for (i in 0...e.device.numControls) {
 
 				var control = e.device.getControlAt (i);
-trace("Control: " + control.id);
+				trace("Control: " + control.id);
 				control.addEventListener (Event.CHANGE, function (e) trace ("Control " + control.id + ": " + control.value));
 
 			}
 
+		});
+
+		lime.ui.Gamepad.onConnect.add (function (gamepad) {
+    
+    		gamepad.onButtonDown.add (function (button) {
+        
+        		trace ("Pressed " + button);
+        
+    		});
+    
+		});
+
+		lime.ui.Joystick.onConnect.add (function (joystick) {
+    
+		    joystick.onButtonDown.add (function (button) { trace ("Button Down: " + button); });
+    
 		});
 
     }
