@@ -8,7 +8,13 @@ import openfl.display.Graphics;
 import openfl.display.CapsStyle;
 import openfl.display.JointStyle;
 import openfl.display.LineScaleMode;
+import openfl.events.Event;
+import openfl.events.GameInputEvent;
+import openfl.ui.GameInput;
+import openfl.Lib;
 import openfl.Assets;
+import lime.ui.Joystick;
+import lime.ui.Gamepad;
 
 
 class Main extends Sprite {
@@ -31,9 +37,24 @@ class Main extends Sprite {
 		this.graphics.beginFill(0x00FF00, 1);
 		this.graphics.drawRect(0, 0, 500, 500);
 		this.graphics.endFill();*/
-		
-	}
 
-	
-	
+		var input = new GameInput ();
+input.addEventListener (GameInputEvent.DEVICE_ADDED, function (e:GameInputEvent) {
+
+			trace ("Connected game input: " + e.device);
+
+			for (i in 0...e.device.numControls) {
+
+				var control = e.device.getControlAt (i);
+trace("Control: " + control.id);
+				control.addEventListener (Event.CHANGE, function (e) trace ("Control " + control.id + ": " + control.value));
+
+			}
+
+		});
+
+    }
+
+
+
 }
