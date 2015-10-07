@@ -42,7 +42,8 @@ class Main extends Sprite {
 		input.addEventListener (GameInputEvent.DEVICE_ADDED, function (e:GameInputEvent) {
 
 			trace ("Connected game input: " + e.device);
-
+			trace ("Device name: " + e.device.name);
+			e.device.enabled = true;
 			for (i in 0...e.device.numControls) {
 
 				var control = e.device.getControlAt (i);
@@ -57,7 +58,7 @@ class Main extends Sprite {
     
     		gamepad.onButtonDown.add (function (button) {
         
-        		trace ("Pressed " + button);
+        		//trace ("Pressed " + button);
         
     		});
     
@@ -65,8 +66,12 @@ class Main extends Sprite {
 
 		lime.ui.Joystick.onConnect.add (function (joystick) {
     
-		    joystick.onButtonDown.add (function (button) { trace ("Button Down: " + button); });
-    
+		    joystick.onButtonDown.add (function (button) { 
+		    	//trace ("Button Down: " + button); 
+		    });
+		    joystick.onAxisMove.add(function(dir, value) {
+		    	//trace("Joystick axis: " + dir + " value: " + value);
+		    });
 		});
 
     }
