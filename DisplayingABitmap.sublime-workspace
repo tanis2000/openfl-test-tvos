@@ -1,0 +1,835 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"stag",
+				"stageHeight	Int"
+			],
+			[
+				"orient",
+				"orientationMask"
+			],
+			[
+				"repl",
+				"replaceWith〔function〕"
+			],
+			[
+				"new",
+				"newValue	(?)"
+			],
+			[
+				"find",
+				"findContactById〔function〕"
+			],
+			[
+				"cir",
+				"circlePos	[]"
+			],
+			[
+				"width",
+				"widthSlice	(num)"
+			],
+			[
+				"noti",
+				"notification_interval"
+			],
+			[
+				"loca",
+				"localizedFinalDate	(?)"
+			],
+			[
+				"account_remo",
+				"account_removal_request"
+			],
+			[
+				"con",
+				"contact_id	(?)"
+			],
+			[
+				"notify_reci",
+				"notify_recipient_incoming"
+			],
+			[
+				"oldC",
+				"oldContacts	(?)"
+			],
+			[
+				"de",
+				"decodeURIComponent(uri)"
+			],
+			[
+				"email",
+				"emailencoded:email"
+			],
+			[
+				"sendEmail",
+				"sendEmailVerificationCode"
+			],
+			[
+				"update",
+				"updateEmailVerificationCode(userId, email, token)"
+			],
+			[
+				"email_v",
+				"email_verify"
+			],
+			[
+				"read",
+				"fs.readFile(path, encoding_);"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Source/Main.hx",
+			"settings":
+			{
+				"buffer_size": 1765,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "project.xml",
+			"settings":
+			{
+				"buffer_size": 342,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/Users/tanis/Documents/HaxeTopDownShooter/Project.xml",
+			"settings":
+			{
+				"buffer_size": 3182,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 367.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"json",
+				"Indent JSON"
+			],
+			[
+				"unreal",
+				"Set Syntax: UnrealScript"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"mark",
+				"Markdown Preview: Open Markdown Cheat sheet"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/tanis/Documents/openfl-test-tvos",
+		"/Users/tanis/Documents/openfl-test-tvos/Source",
+		"/Users/tanis/Documents/openfl",
+		"/Users/tanis/Documents/lime"
+	],
+	"file_history":
+	[
+		"/Users/tanis/Documents/openfl-test-tvos/DisplayingABitmap.hxproj",
+		"/Users/tanis/Documents/lime/project/lib/sdl/src/video/uikit/SDL_uikitview.m",
+		"/Users/tanis/Documents/lime/lime/tools/platforms/TVOSPlatform.hx",
+		"/Users/tanis/Documents/lime/project/lib/png/files.xml",
+		"/Users/tanis/Documents/lime/project/lib/png/pngpriv.h",
+		"/Users/tanis/Documents/lime/project/lib/pixman/files.xml",
+		"/Users/tanis/Documents/lime/project/lib/openal/library.xml",
+		"/Users/tanis/Documents/lime/project/lib/cairo/files.xml",
+		"/Users/tanis/Documents/lime/lime/tools/helpers/IOSHelper.hx",
+		"/Users/tanis/Documents/lime/lime/project/ProjectXMLParser.hx",
+		"/Users/tanis/Documents/lime/lime/project/Platform.hx",
+		"/Users/tanis/Documents/lime/lime/project/HXProject.hx",
+		"/Users/tanis/Documents/lime/lime/_backend/native/NativeApplication.hx",
+		"/Users/tanis/Documents/lime/lime/tools/platforms/IOSPlatform.hx",
+		"/Users/tanis/Documents/lime/tools/utils/PlatformSetup.hx",
+		"/Users/tanis/Documents/lime/project/src/graphics/opengl/OpenGL.h",
+		"/Users/tanis/Documents/lime/project/lib/sdl/library.xml",
+		"/Users/tanis/Documents/lime/project/lib/sdl/files.xml",
+		"/Users/tanis/Documents/lime/templates/tvos/PROJ/haxe/Build.hxml",
+		"/Users/tanis/Documents/lime/project/Build.xml",
+		"/Users/tanis/Documents/lime/lime/tools/helpers/TVOSHelper.hx",
+		"/Users/tanis/Documents/lime/templates/tvos/PROJ/haxe/makefile",
+		"/Users/tanis/Documents/lime/lime/tools/platforms/MacPlatform.hx",
+		"/Users/tanis/Documents/lime/include.xml",
+		"/Users/tanis/Documents/lime/tools/CommandLineTools.hx",
+		"/Users/tanis/Documents/swagup-ios/SwagUp/PushServer/push-ios.json",
+		"/Users/tanis/Documents/lime/lime/tools/helpers/FileHelper.hx",
+		"/Users/tanis/Documents/lime/docs/ImportAll.hx",
+		"/Users/tanis/Documents/lime/project/src/utils/ByteArray.cpp",
+		"/Users/tanis/Documents/lime/project/src/backend/sdl/SDLSystem.cpp",
+		"/Users/tanis/Documents/lime/project/src/backend/sdl/SDLApplication.cpp",
+		"/Users/tanis/Documents/lime/lime/system/System.hx",
+		"/Users/tanis/Documents/lime/lime/system/JNI.hx",
+		"/Users/tanis/Documents/lime/lime/system/CFFI.hx",
+		"/Users/tanis/Documents/lime/tests/runtime/README.md",
+		"/Users/tanis/Documents/lime/templates/haxe/DefaultAssetLibrary.hx",
+		"/Users/tanis/Documents/lime/templates/compatibility/DefaultAssetLibrary.hx",
+		"/Users/tanis/Documents/lime/docs/build.hxml",
+		"/Users/tanis/Documents/lime/project/src/ExternalInterface.cpp",
+		"/Users/tanis/Documents/iron-router-progress-example/.meteor/release",
+		"/Users/tanis/Dropbox/Altralogica/Publifarm/NordGas/Richieste/20150127/nordgas_richieste_20150127.txt",
+		"/Users/tanis/Dropbox/Altralogica/Publifarm/NordGas/Richieste/20150123/nordgas_richieste_20150123.txt",
+		"/Users/tanis/Documents/DownToTheCoreUnity/Assets/Resources/Prefabs/TileMaps/Tiles_13.prefab",
+		"/Users/tanis/Documents/DownToTheCoreUnity/Assets/Resources/Prefabs/TileMaps/TileSet.asset",
+		"/Users/tanis/Documents/HaxeTopDownShooter/assets/data/001.tmx",
+		"/Users/tanis/Documents/soulvenir-meteor/client/views/pages/support.html",
+		"/Users/tanis/Desktop/guisettings.xml",
+		"/Users/tanis/Documents/soulvenir-meteor/server/email/it_notify_delegate_second_alarm_html.handlebars",
+		"/Users/tanis/Documents/soulvenir-meteor/server/email/it_notify_delegate_second_alarm_text.handlebars",
+		"/Users/tanis/Documents/soulvenir-meteor/translations/public.en.lang.yml",
+		"/Users/tanis/Documents/soulvenir-meteor/translations/public.it.lang.yml",
+		"/Users/tanis/Documents/soulvenir-meteor/client/views/users/profile_edit.html",
+		"/Users/tanis/Documents/soulvenir-meteor/client/views/users/profile_edit.js",
+		"/Users/tanis/Documents/soulvenir-meteor/packages/app-common/collections/messagesfs.js",
+		"/Users/tanis/Documents/soulvenir-meteor/client/helpers/router.js",
+		"/Users/tanis/Documents/soulvenir-meteor/client/views/pages/how_it_works.html",
+		"/Users/tanis/Documents/soulvenir-meteor/client/views/commons/navigation.html",
+		"/Users/tanis/Documents/soulvenir-meteor/server/email/it_welcome_html.handlebars",
+		"/Users/tanis/Documents/soulvenir-meteor/server/email/it_invite_html.handlebars",
+		"/Users/tanis/Documents/soulvenir-meteor/server/email/it_invite_text.handlebars",
+		"/Users/tanis/Documents/soulvenir-meteor/server/email/it_notify_user_first_alarm_html.handlebars",
+		"/Users/tanis/Documents/soulvenir-meteor/server/email/it_notify_user_first_alarm_text.handlebars",
+		"/Users/tanis/Documents/soulvenir-meteor/server/email/it_notify_user_second_alarm_html.handlebars",
+		"/Users/tanis/Documents/soulvenir-meteor/server/email/it_notify_user_death_html.handlebars",
+		"/Users/tanis/Documents/soulvenir-meteor/server/email/it_notify_user_death_text.handlebars",
+		"/Users/tanis/Documents/soulvenir-meteor/server/email/it_notify_recipient_html.handlebars",
+		"/Users/tanis/Documents/soulvenir-meteor/server/email/it_notify_recipient_text.handlebars",
+		"/Users/tanis/Documents/soulvenir-meteor/server/email/it_notify_recipient_incoming_html.handlebars",
+		"/Users/tanis/Documents/soulvenir-meteor/server/email/it_notify_recipient_incoming_text.handlebars",
+		"/Users/tanis/Documents/soulvenir-meteor/server/email/it_notify_recipient_final_html.handlebars",
+		"/Users/tanis/Documents/soulvenir-meteor/server/email/it_notify_recipient_final_text.handlebars",
+		"/Users/tanis/Documents/soulvenir-meteor/server/email/it_delegate_confirm_html.handlebars",
+		"/Users/tanis/Documents/soulvenir-meteor/server/email/it_delegate_confirm_text.handlebars",
+		"/Users/tanis/Documents/soulvenir-meteor/server/email/it_notify_user_second_alarm_text.handlebars",
+		"/Users/tanis/Documents/soulvenir-meteor/server/email/it_welcome_text.handlebars",
+		"/Users/tanis/Documents/soulvenir-meteor/client/views/commons/layout.html",
+		"/Users/tanis/Documents/soulvenir-meteor/client/views/messages/messages.js",
+		"/Users/tanis/Documents/soulvenir-meteor/client/views/contacts/contacts.js",
+		"/Users/tanis/Documents/soulvenir-meteor/client/views/contacts/contacts.html",
+		"/Users/tanis/Documents/soulvenir-meteor/client/views/messages/message_file.js",
+		"/Users/tanis/Documents/soulvenir-meteor/client/views/messages/messages.html",
+		"/Users/tanis/Documents/soulvenir-meteor/client/main.css",
+		"/Users/tanis/Dropbox/altralogica/Publifarm/NordGas/Richieste/20150127/nordgas_richieste_20150127.txt",
+		"/Users/tanis/Dropbox/Altralogica/Pozzi/Metro Milano/Offerte/offerta.txt",
+		"/Users/tanis/Documents/soulvenir-meteor/server/notifications.js",
+		"/Users/tanis/Documents/soulvenir-meteor/client/views/contacts/contact_edit.js",
+		"/Users/tanis/Documents/soulvenir-meteor/server/users.js",
+		"/Users/tanis/Documents/soulvenir-meteor/packages/app-admin/client/views/admin_user_kill.html",
+		"/Users/tanis/Documents/soulvenir-meteor/client/views/commons/feedback.html",
+		"/Users/tanis/Documents/soulvenir-meteor/client/views/messages/message_edit.html",
+		"/Users/tanis/Documents/soulvenir-meteor/client/views/commons/feedback.js",
+		"/Users/tanis/Documents/soulvenir-meteor/client/views/contacts/contact_edit.html",
+		"/Users/tanis/Documents/soulvenir-meteor/server/feedback.js",
+		"/Users/tanis/Documents/soulvenir-meteor/packages/app-common/collections/feedbacks.js",
+		"/Users/tanis/Documents/soulvenir-meteor/client/views/messages/messages_grid.html",
+		"/Users/tanis/Documents/soulvenir-meteor/client/views/messages/messages_grid.js",
+		"/Users/tanis/Documents/caught-web/client/views/commons/footer.html",
+		"/Users/tanis/Documents/caught-web/client/views/commons/layout.html",
+		"/Users/tanis/Documents/caught-web/client/views/commons/feedback.js",
+		"/Users/tanis/Documents/caught-web/client/views/commons/feedback.html",
+		"/Users/tanis/Documents/caught-web/server/feedback.js",
+		"/Users/tanis/Documents/soulvenir-meteor/packages/app-common/package.js",
+		"/Users/tanis/Documents/caught-web/collections/feedbacks.js",
+		"/Users/tanis/Documents/soulvenir-meteor/packages/app-admin/server/charts.js",
+		"/Users/tanis/Documents/soulvenir-meteor/lib/users.js",
+		"/Users/tanis/Documents/soulvenir-meteor/server/helpers.js",
+		"/Users/tanis/Documents/soulvenir-meteor/packages/app-onboarding/client/views/onboarding_phone.js",
+		"/Users/tanis/Documents/soulvenir-meteor/packages/app-onboarding/package.js",
+		"/Users/tanis/Documents/soulvenir-meteor/packages/app-onboarding/client/views/onboarding_phone.html",
+		"/Users/tanis/Documents/soulvenir-meteor/client/views/contacts/contact_item_modal.js",
+		"/Users/tanis/Documents/soulvenir-meteor/client/views/contacts/contact_item_modal.html",
+		"/Users/tanis/Documents/soulvenir-meteor/client/views/messages/message_edit.js",
+		"/Users/tanis/Documents/soulvenir-meteor/client/views/pages/home.js",
+		"/Users/tanis/Documents/soulvenir-meteor/client/views/pages/carousel_icon.js",
+		"/Users/tanis/Documents/soulvenir-meteor/client/main.js",
+		"/Users/tanis/Documents/soulvenir-meteor/server/email/it_notify_user_third_alarm_text.handlebars",
+		"/Users/tanis/Documents/soulvenir-meteor/server/email/it_notify_user_third_alarm_html.handlebars",
+		"/Users/tanis/Documents/soulvenir-meteor/server/email/en_notify_user_third_alarm_text.handlebars",
+		"/Users/tanis/Documents/soulvenir-meteor/server/email/en_notify_user_third_alarm_html.handlebars",
+		"/Users/tanis/Documents/soulvenir-meteor/server/email/en_notify_user_second_alarm_text.handlebars",
+		"/Users/tanis/Documents/soulvenir-meteor/server/email/en_notify_user_second_alarm_html.handlebars",
+		"/Users/tanis/Documents/soulvenir-meteor/server/email/en_notify_user_first_alarm_text.handlebars",
+		"/Users/tanis/Documents/soulvenir-meteor/server/email/en_notify_user_first_alarm_html.handlebars",
+		"/Users/tanis/Documents/soulvenir-meteor/build_stage.sh",
+		"/Users/tanis/Documents/soulvenir-meteor/settings_stage.json",
+		"/Users/tanis/Documents/soulvenir-meteor/start_stage.sh",
+		"/Users/tanis/Documents/soulvenir-meteor/packages/app-onboarding/client/views/onboarding_email.js",
+		"/Users/tanis/Documents/soulvenir-meteor/packages/app-onboarding/client/views/onboarding_email.html"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"*",
+			"*.js,-.meteor/*,*.html",
+			"*.js,-.meteor/*",
+			"*.js,-.meteor",
+			"*.js",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"disable_cffi",
+			"SDL_SYS_JoystickInit",
+			"ComputeViewFrame",
+			"bounds",
+			"ios",
+			"armv64",
+			"init_filter_functions_neon",
+			"coremotion",
+			"TVOSHelper",
+			"sdkroot",
+			"f2ca1ef1-1cef-46fa-aecd-4b74152f9600",
+			"motionMana",
+			"sdl_iphone",
+			"sdl_free",
+			"sdl_joystickdeviceitem",
+			"ios",
+			"AppDelegate",
+			"AudioSessionInitialize",
+			"ios",
+			"MAC",
+			"MACOSX",
+			"MACOSX_COREAUDIO",
+			"<include",
+			"ios",
+			"include",
+			"ios",
+			"HXCPP_M64",
+			"Platforms",
+			"IPHONE",
+			"IPHONE\nIPHONE",
+			"IPHONE",
+			"x86",
+			"iphone",
+			"ios",
+			"Copying template",
+			"iphone",
+			"ios",
+			"iphone",
+			"ios",
+			"IOSHelper",
+			"IOSPla",
+			"IOSPlatform",
+			"android",
+			"ios",
+			"iphone",
+			"getTiffDataFromImage",
+			"UpdatePaintSelectState",
+			"UpdateState",
+			"DrawTileSet",
+			"tileScrollPosition",
+			"targetTileMap.tileSet",
+			"listOfTileAssets",
+			"DrawLayerMenu",
+			"dolayoutli",
+			"LayerHeaderDelegate",
+			"layers",
+			"DrawLayerMenu",
+			"initialize",
+			"ReorderableList",
+			"gameScale",
+			"AspectRatioFix",
+			"AddPixelPerfectObject",
+			"RecalculatePUandScale",
+			"getpix",
+			"maxSize",
+			"16",
+			"Router.configure",
+			"controller",
+			"configure",
+			"Router.configure",
+			"onBefore",
+			"privac",
+			".soulvenir.",
+			"token",
+			"messageby",
+			"notify_recipient",
+			"info",
+			"user",
+			"notify_recipient",
+			"/faq",
+			"how-it",
+			"{",
+			"onDocumentReady",
+			"messages_count",
+			"getPrimaryEmail",
+			"updateUserProfileSlim",
+			"getCountr",
+			"userRouteForOnboarding",
+			"trackMe",
+			"unblock",
+			"App.Common.trackMetric",
+			"notifycont",
+			"confirmLi",
+			"confirmLinkReceiv",
+			"checkAndBlockSentMessages",
+			"Require",
+			"sendEmailVerify",
+			"encodeURIComponent",
+			"base64",
+			"sendemailver",
+			"sendEmailVerificationCode",
+			"sendEmailVerify",
+			"addEmail",
+			"addNewEm",
+			"sendEmailVerify",
+			"sendEmailVerifySMS",
+			"resetNotificationsWithLogin",
+			"sendNewEmailVerificationCode",
+			"this",
+			"token",
+			"getPrimaryEmail",
+			"email: email",
+			"isDisabled",
+			"token",
+			"sendEm",
+			"email_verification_title",
+			"momentjs",
+			"facebookPermissions",
+			"invite",
+			"facebookPermissions",
+			"_.str",
+			"Session.set",
+			"update my",
+			"t.getLanguage().getLocale().getLanguage()",
+			"resurrected",
+			"isAdmin",
+			"dear",
+			"_s."
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"@",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Source/Main.hx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1765,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1748,
+								1748
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"haxe-build-id": 0,
+							"syntax": "Packages/Haxe/Haxe.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 192.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "project.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 342,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/XML/XML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/tanis/Documents/HaxeTopDownShooter/Project.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3182,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								47,
+								47
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"syntax": "Packages/XML/XML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "DisplayingABitmap.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 221.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
