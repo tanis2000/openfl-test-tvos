@@ -30,7 +30,7 @@ endif
 ifeq ("$(CLANG_ENABLE_OBJC_ARC)", "YES")
    HXCPP_CLANG := -DHXCPP_CLANG -DOBJC_ARC -DENABLE_BITCODE
 else
-   HXCPP_CLANG := 
+   HXCPP_CLANG :=
 endif
 
 HAXE_OS := $(PLATFORM_NAME)
@@ -47,21 +47,21 @@ LIB_DEST := $(DEBUG)/libApplicationMain.a
 
 build-haxe-i386:
 	@echo "Haxe simulator build: $(CONFIG)"
-	haxe Build.hxml -D simulator -cpp build/$(CONFIG) $(DEBUG)
+	haxe Build.hxml --no-inline -D simulator -cpp build/$(CONFIG) $(DEBUG)
 	cd build/$(CONFIG); export HXCPP_NO_COLOR=1; haxelib run hxcpp Build.xml -Dtvos -Dsimulator -DHXCPP_CPP11 $(DEF_DEBUG) $(HXCPP_CLANG) `cat Options.txt | while read LINE; do printf " -D$$LINE"; done`
 	cp build/$(CONFIG)/libApplicationMain$(DEBUG).appletvsim.a ../lib/i386$(LIB_DEST)
 	touch ../Classes/Main.mm
 
 build-haxe-x86_64:
 	@echo "Haxe simulator build: $(CONFIG)-64"
-	haxe Build.hxml -D simulator -D HXCPP_M64 -cpp build/$(CONFIG)-64 $(DEBUG)
+	haxe Build.hxml --no-inline -D simulator -D HXCPP_M64 -cpp build/$(CONFIG)-64 $(DEBUG)
 	cd build/$(CONFIG)-64; export HXCPP_NO_COLOR=1; haxelib run hxcpp Build.xml -Dtvos -Dsimulator -DHXCPP_M64 -DHXCPP_CPP11 $(DEF_DEBUG) $(HXCPP_CLANG) `cat Options.txt | while read LINE; do printf " -D$$LINE"; done`
 	cp build/$(CONFIG)-64/libApplicationMain$(DEBUG).appletvsim-64.a ../lib/x86_64$(LIB_DEST)
 	touch ../Classes/Main.mm
 
 build-haxe-arm64:
 	@echo "Haxe device build: $(CONFIG)-64"
-	haxe Build.hxml -D HXCPP_ARM64 -cpp build/$(CONFIG)-64 $(DEBUG)
+	haxe Build.hxml --no-inline -D HXCPP_ARM64 -cpp build/$(CONFIG)-64 $(DEBUG)
 	cd build/$(CONFIG)-64; export HXCPP_NO_COLOR=1; haxelib run hxcpp Build.xml -Dtvos -DHXCPP_ARM64 -DHXCPP_CPP11 $(DEF_DEBUG) $(HXCPP_CLANG) `cat Options.txt | while read LINE; do printf " -D$$LINE"; done`
 	cp build/$(CONFIG)-64/libApplicationMain$(DEBUG).appletvos-64.a ../lib/arm64$(LIB_DEST)
 	touch ../Classes/Main.mm
