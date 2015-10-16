@@ -37,7 +37,7 @@ class Main extends Sprite {
     trace(Capabilities.screenDPI);
 		Env.setup ();
 		trace(Env.screenDensity);
-		Lib.current.scaleX = Lib.current.scaleY = 0.5;//Env.screenDensity;
+		Lib.current.scaleX = Lib.current.scaleY = Env.screenDensity;
 
 		background = new Background ();
 		background.texture = Assets.getBitmapData ("assets/grass.png");

@@ -124,7 +124,7 @@ class ApplicationMain {
 		
 		#if hxtelemetry
 		var telemetry = new hxtelemetry.HxTelemetry.Config ();
-		telemetry.allocations = true;
+		telemetry.allocations = ("true" == "true");
 		telemetry.host = "localhost";
 		telemetry.app_name = config.name;
 		Reflect.setField (config, "telemetry", telemetry);
