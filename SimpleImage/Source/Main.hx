@@ -112,9 +112,9 @@ class Main extends Application {
 
 					var data = [
 
-						image.width, image.height, 0, 1, 1,
-						0, image.height, 0, 0, 1,
-						image.width, 0, 0, 1, 0,
+						window.width, window.height, 0, 1, 1,
+						0, window.height, 0, 0, 1,
+						window.width, 0, 0, 1, 0,
 						0, 0, 0, 0, 0
 
 					];
