@@ -1,0 +1,38 @@
+{
+
+  luxe:{
+    window: {
+      width:960,
+      height:640,
+      title:'Infinite Scroller in Luxe',
+      fullscreen:false,
+      resizable:true,
+      borderless:false
+    }
+  },
+
+  project : {
+    name : 'infinitescrollerluxe',
+    version : '1.0.0',
+    author : 'tanis2000',
+
+    app : {
+      name : 'infinitescrollerluxe',
+      package : 'it.altralogica.infinitescrollerluxe'
+    },
+
+    build : {
+      dependencies : {
+        luxe : '*',
+        hxtelemetry : '*',
+      },
+      defines:['HXCPP_STACK_TRACE','HXCPP_TELEMETRY']
+    },
+
+    files : {
+      assets : 'assets/'
+    }
+
+  }
+
+}
