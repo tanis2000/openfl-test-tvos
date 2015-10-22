@@ -22,7 +22,7 @@ class PlayState extends FlxState
 	override public function create():Void
 	{
 		super.create();
-		FlxG.debugger.visible = true;
+		//FlxG.debugger.visible = true;
 		sprites = new Array<FlxSprite>();
 		for(i in 0...200) {
 			var s = new FlxSprite();
