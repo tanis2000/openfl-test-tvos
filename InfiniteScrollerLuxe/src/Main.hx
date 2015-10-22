@@ -19,6 +19,7 @@ class Main extends luxe.Game {
         var cfg = new hxtelemetry.HxTelemetry.Config();
         cfg.allocations = true;
         cfg.app_name = "InfiniteScrollerLuxe";
+        cfg.host = "172.16.69.110";
         hxt = new hxtelemetry.HxTelemetry(cfg);
 
         sprites = new Array<Sprite>();
