@@ -3,11 +3,12 @@ import luxe.Input;
 import luxe.Sprite;
 import luxe.Color;
 import luxe.Vector;
+import luxe.Debug;
 
 class Main extends luxe.Game {
 
     var sprites:Array<Sprite>;
-    var hxt:hxtelemetry.HxTelemetry;
+    //var hxt:hxtelemetry.HxTelemetry;
     
     override function config(config:luxe.AppConfig) {
 
@@ -16,11 +17,13 @@ class Main extends luxe.Game {
     } //config
 
     override function ready() {
-        var cfg = new hxtelemetry.HxTelemetry.Config();
+        /*var cfg = new hxtelemetry.HxTelemetry.Config();
         cfg.allocations = true;
         cfg.app_name = "InfiniteScrollerLuxe";
         cfg.host = "172.16.69.110";
-        hxt = new hxtelemetry.HxTelemetry(cfg);
+        hxt = new hxtelemetry.HxTelemetry(cfg);*/
+
+        //Luxe.debug.show_console();
 
         sprites = new Array<Sprite>();
         for(i in 0...200) {
@@ -45,7 +48,7 @@ class Main extends luxe.Game {
             var s:Sprite = sprites[i];
             s.pos.x -= 300 * dt;
         }
-        hxt.advance_frame();
+        //hxt.advance_frame();
     } //update
 
 

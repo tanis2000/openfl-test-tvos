@@ -24,9 +24,9 @@
     build : {
       dependencies : {
         luxe : '*',
-        hxtelemetry : '*',
+        //hxtelemetry : '*',
       },
-      defines:['HXCPP_STACK_TRACE','HXCPP_TELEMETRY']
+      //defines:['HXCPP_STACK_TRACE','HXCPP_TELEMETRY']
     },
 
     files : {
