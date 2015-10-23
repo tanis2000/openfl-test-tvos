@@ -1,0 +1,34 @@
+{
+	"format": 3,
+	"game": {
+		"name": "Empty",
+		"width": 640,
+		"height": 480
+	},
+	"libraries": [
+		"Kha2D",
+		"Cata2D"
+	],
+	"assets": [
+		{
+			"type": "image",
+			"file": "player.png",
+			"name": "player",
+			"background": {
+				"red": 0,
+				"green": 0,
+				"blue": 0
+			}
+		}
+	],
+	"rooms": [
+		{
+			"name": "level1",
+			"parent": null,
+			"neighbours": [],
+			"assets": [
+				"player"
+			]
+		}
+	]
+}
