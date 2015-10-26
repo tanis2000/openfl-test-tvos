@@ -5,3 +5,4 @@
 [submodule "InfiniteScrollerKha/Libraries/Kha2D"]
 	path = InfiniteScrollerKha/Libraries/Kha2D
 	url = https://github.com/KTXSoftware/Kha2D.git
+	branch = master
