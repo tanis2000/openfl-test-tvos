@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Kha" type="Haxe">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/Kha/Sources" />
+      <root url="file://$PROJECT_DIR$/Libraries/Cata2D/Sources" />
+      <root url="file://$PROJECT_DIR$/Libraries/Kha2D/Sources" />
+      <root url="file://$PROJECT_DIR$/Kha/Backends/Kore/kha" />
+    </SOURCES>
+  </library>
+</component>

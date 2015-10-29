@@ -32,7 +32,8 @@ class Main extends luxe.Game {
             s.pos.y = 200;
             sprites.push(s);
         }
-
+        trace(Luxe.camera.viewport);
+        trace(Luxe.camera.bounds);
     } //ready
 
     override function onkeyup( e:KeyEvent ) {
@@ -44,10 +45,11 @@ class Main extends luxe.Game {
     } //onkeyup
 
     override function update(dt:Float) {
-        for (i in 0...200) {
+        Luxe.camera.pos.x += 300*dt;
+        /*for (i in 0...200) {
             var s:Sprite = sprites[i];
             s.pos.x -= 300 * dt;
-        }
+        }*/
         //hxt.advance_frame();
     } //update
 

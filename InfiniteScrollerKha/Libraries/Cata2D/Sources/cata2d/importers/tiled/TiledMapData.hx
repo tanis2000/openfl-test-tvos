@@ -8,7 +8,7 @@ import cata2d.importers.tiled.TiledObjectGroup;
 import cata2d.importers.tiled.TiledUtil.valid_element;
 //import cata2d.importers.tiled.TiledUtil.orientation_from_string;
 
-import kha2d.Tilemap;
+import cata2d.tilemaps.Tilemap;
 
 
 class TiledMapData {

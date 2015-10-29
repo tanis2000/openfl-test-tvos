@@ -1,6 +1,6 @@
 package cata2d.importers.tiled;
 
-import kha2d.Tilemap;
+import cata2d.tilemaps.Tilemap;
 
 class TiledUtil {
 

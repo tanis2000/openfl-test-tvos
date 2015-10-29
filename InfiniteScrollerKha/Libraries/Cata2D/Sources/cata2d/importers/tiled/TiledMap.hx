@@ -5,7 +5,7 @@ import kha.math.Vector2;
 import kha.Rectangle;
 import cata2d.importers.tiled.TiledMapData;
 
-import kha2d.Tilemap;
+import cata2d.tilemaps.Tilemap;
 
 typedef TiledMapOptions = {
     tiled_file_data : String,
@@ -41,21 +41,20 @@ class TiledMap extends Tilemap {
 
             //create the luxe tilemap
             //from the data we are given
-        super({
-            x           : Std.int(options.pos.x),
-            y           : Std.int(options.pos.y),
-            w           : tiledmap_data.width,
-            h           : tiledmap_data.height,
-            tile_width  : tiledmap_data.tile_width,
-            tile_height : tiledmap_data.tile_height
-        });
+        super(Std.int(options.pos.x),
+            Std.int(options.pos.y),
+            tiledmap_data.width,
+            tiledmap_data.height,
+            tiledmap_data.tile_width,
+            tiledmap_data.tile_height
+        );
 
             //Then load the tilesets and layers
         _load_tilesets( options );
         _load_layers( options );
 
             //Set the orientation
-        orientation = tiledmap_data.orientation;
+        //orientation = tiledmap_data.orientation;
 
     } //new
 
@@ -64,21 +63,15 @@ class TiledMap extends Tilemap {
         for(_tileset in tiledmap_data.tilesets) {
 
             var _tileset_id = haxe.io.Path.join([options.asset_path,_tileset.texture_name]);
-            var _texture = Luxe.resources.texture(_tileset_id);
+            var _texture = Loader.the.getImage(_tileset_id);
 
             assertnull(_texture, 'Tiled; trying to load $_tileset_id but texture not found in resources');
 
-            add_tileset({
-
-                name : _tileset.name,
-                texture : _texture,
-                first_id : _tileset.first_id,
-                tile_width : _tileset.tile_width,
-                tile_height : _tileset.tile_height,
-                spacing : _tileset.spacing,
-                margin : _tileset.margin
-
-            });
+            addTileset(_tileset.name,
+                _texture,
+                _tileset.tile_width,
+                _tileset.tile_height
+                );
 
         } //for all tilesets
 
@@ -96,7 +89,7 @@ class TiledMap extends Tilemap {
             }
 
                 //add the layer
-            add_layer({
+            addLayer({
                 name : _layer.name,
                 layer : layer_index,
                 opacity : _layer.opacity,

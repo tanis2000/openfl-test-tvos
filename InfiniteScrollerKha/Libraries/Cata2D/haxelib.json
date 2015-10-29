@@ -4,9 +4,9 @@
 	"license": "MIT",
 	"tags": ["cross", "game"],
 	"description": "2D game engine for Kha",
-	"version": "15.8.0",
+	"version": "0.1.0",
 	"releasenote": "Revision 8d8cdc3f0a558b2a981f063bea3bcdb2e92a636b.",
-	"contributors": ["RobDangerous"],
+	"contributors": ["tanis2000"],
 	"dependencies": {
 		"kha": "",
 		"kha2d": ""

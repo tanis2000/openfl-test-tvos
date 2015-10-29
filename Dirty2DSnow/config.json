@@ -1,0 +1,12 @@
+{
+    "window" : {
+        "width" : 320,
+        "height" : 240,
+        "fullscreen" : false
+    },
+
+    "size":128,
+    "movespeed" : 100,
+    "timescale": 1
+
+}

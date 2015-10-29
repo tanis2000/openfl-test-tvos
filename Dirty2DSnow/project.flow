@@ -1,0 +1,25 @@
+{
+
+  project : {
+    name : 'Dirty2D Snow implementation',
+    version : '0.1.0',
+    author : 'tanis2000',
+
+    app : {
+      name : 'dirty2d_snow',
+      package : 'it.altralogica.dirty2dsnow',
+    },
+
+    build : {
+      dependencies : {
+        snow : '*',
+      }
+    },
+
+    files : {
+      config : 'config.json'
+    }
+
+  }
+
+}
