@@ -34,6 +34,8 @@ class Main extends luxe.Game {
         }
         trace(Luxe.camera.viewport);
         trace(Luxe.camera.bounds);
+
+        
     } //ready
 
     override function onkeyup( e:KeyEvent ) {
