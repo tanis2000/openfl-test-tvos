@@ -1,0 +1,7 @@
+{
+    "haxe.displayConfigurations": [
+        ["bin/mac64.build/build.hxml"],
+        ["bin/mac64.build/snow.hxml"],
+        ["vscode-project.hxml"]
+    ]
+}
