@@ -179,7 +179,16 @@ class Main extends Application {
 				
 				if (image != null) {
 					
-					var matrix = Matrix4.createOrtho (0, window.width, window.height, 0, -1000, 1000);
+					var matrix = Matrix4.createOrtho (0, image.width, image.height, 0, -1000, 1000);
+					matrix.appendScale((image.width / window.width), (image.width/window.height), 1.0);
+					/*
+					if (window.width < window.height) {
+						matrix.appendScale(1.0, window.width/window.height, 1.0);
+					} else {
+						matrix.appendScale(1.0, window.height/window.width, 1.0);
+					}
+					*/
+
 					gl.uniformMatrix4fv (glMatrixUniform, false, matrix);
 					
 					gl.activeTexture (gl.TEXTURE0);
